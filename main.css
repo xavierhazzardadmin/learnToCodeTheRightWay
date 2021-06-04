@@ -1,0 +1,36 @@
+:root {
+    --text-primary: #66fcf1;
+    --text-secondary: #c5c6c7;
+    --bg-primary: #1f2833;
+    --bg-secondary: #0b0c10;
+    --extra-color: #45a29e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: var(--bg-primary);
+}
+
+.top-heading {
+    font-size: 2.3rem;
+    margin: 1.5rem 0 1.5rem 2.5rem;
+    color: var(--text-primary);
+    width: 75%;
+}
+
+.main-body-text {
+    font-size: 1rem;
+    margin: 1.5rem 0 1.5rem 2.5rem;
+    color: var(--text-secondary);
+    width: 55%;
+}
+
+.main-text-block {
+    margin: 0 0 4rem;
+}
